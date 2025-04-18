@@ -1,5 +1,5 @@
 
-import { Phone, MapPin, Facebook, WhatsApp } from "lucide-react";
+import { Phone, MapPin, Facebook, MessageSquare } from "lucide-react";
 
 const openWhatsApp = (phoneNumber: string) => {
   const cleanedPhoneNumber = phoneNumber.replace(/\s/g, '');
@@ -41,7 +41,7 @@ const HeroSection = () => {
               onClick={() => openWhatsApp("680 45 04 45")}
               className="flex items-center gap-2 bg-green-500 px-6 py-3 rounded-full text-white hover:bg-green-600 transition-colors"
             >
-              <WhatsApp className="w-5 h-5" />
+              <MessageSquare className="w-5 h-5" />
               <span className="font-semibold">WhatsApp</span>
             </button>
             <a href="https://www.facebook.com/badajozPIKIPARK" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-blue-600 px-6 py-3 rounded-full text-white hover:bg-blue-700 transition-colors">
