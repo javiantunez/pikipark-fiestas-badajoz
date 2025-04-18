@@ -7,9 +7,9 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <img 
-            src="/lovable-uploads/ab6c76ec-5bfa-4d86-83b1-dca098068f68.png" 
-            alt="Pikipark Logo" 
-            className="w-48 mx-auto mb-8"
+            src="/lovable-uploads/4337d79a-8533-4a07-948c-db9dd5401fca.png" 
+            alt="Pikipark Interior" 
+            className="w-full max-w-2xl mx-auto mb-8 rounded-lg shadow-lg"
           />
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
             ¡Celebra tu fiesta en Pikipark!
