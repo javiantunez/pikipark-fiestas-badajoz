@@ -1,7 +1,22 @@
 
-import { Phone, MapPin, Facebook } from "lucide-react";
+import { Phone, MapPin, Facebook, WhatsApp } from "lucide-react";
+
+const openWhatsApp = (phoneNumber: string) => {
+  const cleanedPhoneNumber = phoneNumber.replace(/\s/g, '');
+  
+  // Detect if it's a mobile device
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  
+  const baseUrl = isMobile 
+    ? `whatsapp://send?phone=34${cleanedPhoneNumber}` 
+    : `https://wa.me/34${cleanedPhoneNumber}`;
+  
+  window.open(baseUrl, '_blank');
+};
 
 const HeroSection = () => {
+  const phoneNumber = "680 45 04 45";
+
   return (
     <div className="relative bg-gradient-to-r from-purple-400 via-pink-300 to-yellow-300 py-20">
       <div className="container mx-auto px-4">
@@ -22,6 +37,13 @@ const HeroSection = () => {
               <Phone className="w-5 h-5" />
               <span className="font-semibold">680 45 04 45</span>
             </a>
+            <button 
+              onClick={() => openWhatsApp("680 45 04 45")}
+              className="flex items-center gap-2 bg-green-500 px-6 py-3 rounded-full text-white hover:bg-green-600 transition-colors"
+            >
+              <WhatsApp className="w-5 h-5" />
+              <span className="font-semibold">WhatsApp</span>
+            </button>
             <a href="https://www.facebook.com/badajozPIKIPARK" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-blue-600 px-6 py-3 rounded-full text-white hover:bg-blue-700 transition-colors">
               <Facebook className="w-5 h-5" />
               <span className="font-semibold">Síguenos en Facebook</span>
