@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,7 +13,6 @@ const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aquí se manejaría el envío del formulario
     console.log('Formulario enviado:', formData);
   };
 
@@ -31,8 +29,7 @@ const ContactForm = () => {
               <p className="text-xl font-bold text-purple-600 mb-4">680 45 04 45</p>
               <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
                 <p className="text-sm text-yellow-800">
-                  <strong>Importante:</strong> Para formalizar la reserva se requiere un adelanto de 30€.
-                  El precio total del alquiler es de 95€ por día.
+                  <strong>Importante:</strong> Reserva previa por teléfono obligatoria.
                 </p>
               </div>
             </div>

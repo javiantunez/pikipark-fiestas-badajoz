@@ -28,14 +28,6 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4">Precios</h3>
-            <ul className="space-y-2">
-              <li>Alquiler por día: 95€</li>
-              <li>Adelanto para reserva: 30€</li>
-            </ul>
-          </div>
-
-          <div>
             <h3 className="text-xl font-bold mb-4">Información Importante</h3>
             <ul className="space-y-2 text-gray-300">
               <li>• Reserva previa por teléfono obligatoria</li>
