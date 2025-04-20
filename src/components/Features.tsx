@@ -1,4 +1,6 @@
 
+import { Instagram } from 'lucide-react';
+
 const Features = () => {
   return (
     <div className="py-16 bg-gray-50">
@@ -21,7 +23,7 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2">Cocina Equipada</h3>
-            <p className="text-gray-600">Cocina completa con horno, microondas, nevera y todo lo necesario para tu celebración.</p>
+            <p className="text-gray-600">Cocina completa con microondas, nevera y todo lo necesario para tu celebración.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="h-12 w-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
@@ -30,7 +32,7 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2">Zona Deportiva</h3>
-            <p className="text-gray-600">Campo de fútbol, canasta de baloncesto y zonas de juego activo.</p>
+            <p className="text-gray-600">Campo de fútbol y zonas de juego activo.</p>
           </div>
         </div>
       </div>
