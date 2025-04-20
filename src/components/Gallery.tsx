@@ -7,13 +7,13 @@ const Gallery = () => {
 
   const galleryItems = {
     parque: [
-      { src: "/lovable-uploads/ddc19a15-fbb8-4bad-a564-21a4d48d5b6e.png", alt: "Parque de bolas principal" },
       { src: "/lovable-uploads/85a8d2b3-3896-4c6d-8b9a-37e05b8c5b69.png", alt: "Toboganes del parque" },
       { src: "/lovable-uploads/aaed14ac-8232-49d1-8a2a-efc72d4be583.png", alt: "Estructura de juegos" },
+      { src: "/lovable-uploads/ddc19a15-fbb8-4bad-a564-21a4d48d5b6e.png", alt: "Parque de bolas principal" },
     ],
     cocina: [
-      { src: "/lovable-uploads/971d3d38-5bf5-4dea-8ef7-5e9387ca293f.png", alt: "Cocina equipada" },
       { src: "/lovable-uploads/2a20e515-bbb4-4e00-bbc0-5aba55a2ded8.png", alt: "Zona de cocina" },
+      { src: "/lovable-uploads/971d3d38-5bf5-4dea-8ef7-5e9387ca293f.png", alt: "Cocina equipada" },
     ],
     futbol: [
       { src: "/lovable-uploads/0acadf0a-9641-4448-8baa-1d457a974ee8.png", alt: "Campo de fútbol" },
