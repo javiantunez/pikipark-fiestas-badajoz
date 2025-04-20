@@ -1,4 +1,3 @@
-
 import { Phone, MapPin, Facebook, MessageSquare, Instagram } from "lucide-react";
 
 const openWhatsApp = (phoneNumber: string) => {
@@ -48,7 +47,7 @@ const HeroSection = () => {
               <Facebook className="w-5 h-5" />
               <span className="font-semibold">Síguenos en Facebook</span>
             </a>
-            <a href="https://www.instagram.com/pikiparkbadajoz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-pink-500 px-6 py-3 rounded-full text-white hover:bg-pink-600 transition-colors">
+            <a href="https://www.instagram.com/piki__park" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-pink-500 px-6 py-3 rounded-full text-white hover:bg-pink-600 transition-colors">
               <Instagram className="w-5 h-5" />
               <span className="font-semibold">Instagram</span>
             </a>
