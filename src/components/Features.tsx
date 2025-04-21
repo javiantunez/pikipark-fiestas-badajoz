@@ -23,7 +23,44 @@ const Features = () => {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-2">Zona Deportiva</h3>
-            <p className="text-gray-600">Zona de juegos y actividades deportivas.</p>
+            <p className="text-gray-600">Zona de juegos y actividades deportivas para todas las edades.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="h-12 w-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+              <svg className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2l3 7h7l-5.5 4.5L17 21l-5-3.5L7 21l1.5-7.5L3 9h7z"/>
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold mb-2">Sala de Celebraciones</h3>
+            <p className="text-gray-600">Amplia sala climatizada equipada con mesas, sillas y todo lo necesario para tu celebración.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="h-12 w-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+              <svg className="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" strokeWidth="2" />
+                <rect x="8" y="12" width="8" height="4" rx="1" />
+                <rect x="7" y="10" width="10" height="2" rx="1" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold mb-2">Cocina Equipada</h3>
+            <p className="text-gray-600"> Cocina con frigorífico, microondas y zona para preparar meriendas.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+              <svg className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 17L17 6M6 6l11 11" />
+              </svg>
+            </div>
+            <h3 className="text-xl font-semibold mb-2">Baños Adaptados</h3>
+            <p className="text-gray-600">Dos baños disponibles, adaptados para peques y adultos.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <div className="h-12 w-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+              <Instagram className="h-6 w-6 text-red-500" />
+            </div>
+            <h3 className="text-xl font-semibold mb-2">¡Síguenos en Instagram!</h3>
+            <a href="https://www.instagram.com/piki__park" target="_blank" className="text-pink-500 hover:underline">Ver perfil</a>
           </div>
         </div>
       </div>

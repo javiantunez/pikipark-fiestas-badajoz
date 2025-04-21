@@ -4,6 +4,7 @@ import Features from "@/components/Features";
 import Gallery from "@/components/Gallery";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import LocationMap from "@/components/LocationMap";
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <HeroSection />
       <Features />
       <Gallery />
+      <LocationMap />
       <ContactForm />
       <Footer />
     </div>
