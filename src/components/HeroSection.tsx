@@ -22,8 +22,8 @@ const HeroSection = () => {
       {/* Imagen a ancho completo */}
       <div className="w-full overflow-hidden">
         <img 
-          src="/lovable-uploads/4337d79a-8533-4a07-948c-db9dd5401fca.png" 
-          alt="Pikipark Interior" 
+          src="/archivos/Portada.jpeg" 
+          alt="Pikipark Badajoz - Parque infantil y de cumpleaños" 
           className="w-full object-cover max-h-[400px] md:max-h-[500px] mb-8"
           style={{ minHeight: "200px" }}
         />

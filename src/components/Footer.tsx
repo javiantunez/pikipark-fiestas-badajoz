@@ -32,7 +32,6 @@ const Footer = () => {
               <li>• Reserva previa por teléfono obligatoria</li>
               <li>• Sistema de renovación de aire</li>
               <li>• Se debe dejar el local recogido</li>
-              <li>• Disponemos de dos baños</li>
             </ul>
           </div>
         </div>
